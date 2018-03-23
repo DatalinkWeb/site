@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 const toolbar = (props) => (
-    <header>
+    <header className="Toolbar">
         <div>Menu</div>
         <div>Logo</div>
         <nav>
