@@ -1,0 +1,33 @@
+/*
+BlockElementModifier architecture
+COLORS:
+
+Light orange: #fe7f2d
+Medium orange: #cc5803
+Dark teal: #315659
+light teal: #177e89
+white-blue: #05b2dc
+*/
+
+$color-primary:#fe7f2d;
+$color-primary-dark:#cc5803;
+$color-secondary:#177e89;
+$color-secondary-dark:#315659;
+$color-tertiary:#05b2dc;
+$color-tertiary-dark:#0392b5;
+//neutrals
+$color-gray:#777;
+$color-gray-dark:#999;
+$color-gray-light-1:#f7f7f7;
+$color-gray-light-2:#eee;
+$color-white:#fff;
+$color-black:#000;
+$color-canthal:#333;
+
+//FONT
+$default-font-size:1.6rem;
+
+
+h1{
+    color: tomato;
+}

@@ -1,0 +1,39 @@
+.top-bar{
+    
+    position:relative;
+    
+
+    &__stuffing{
+        //position:relative;
+        background-color: orange;
+        padding: .1rem;
+        margin-left: 0.2rem;
+        float: left;
+        text-align: left;
+        font-size: 1.1rem;
+    }
+
+    &__contact{
+        //background-color: green;
+        padding: .1rem;
+        margin-right: 0.2rem;
+        //float: right;
+        text-align: right;
+        font-size: 1.1rem;
+
+        &__list{
+            margin-right: 5rem;
+            list-style: none;
+            color: $color-gray-dark;
+            font-weight: 500;
+
+            &-item{
+                display: inline-block;
+                margin-left: 1rem;
+            }
+
+        }
+    }
+
+
+}
