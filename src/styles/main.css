@@ -246,6 +246,41 @@ body {
   align-items: center;
   height: 100%; }
 
+.NavigationSubItem {
+  width: 13rem;
+  height: 100%;
+  background-color: #315659;
+  top: 0;
+  left: 0;
+  display: inline-block; }
+
+.NavigationSubItems {
+  margin: 0;
+  padding: 0;
+  position: relative; }
+
+.NavigationSubItems:before {
+  content: "";
+  position: absolute;
+  right: 20px;
+  top: -1.1rem;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #fe7f2d; }
+
+.NavigationSubItems:after {
+  content: "";
+  position: absolute;
+  right: 20px;
+  top: -1.6rem;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #cc5803; }
+
 .Toolbar {
   height: 5.6rem;
   width: 100%;
